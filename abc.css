@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-repeat:no repeat; */
+    background:url('https://cdn2.slidemodel.com/wp-content/uploads/7243-01-low-poly-background-16x9-1.jpg')
+}
+
+.left{
+/* border:2px solid black; */
+display:inline-block;
+left: 50px;
+position:absolute;
+padding: 10px;
+top:20px;
+font-family: cursive;
+font-weight: bolder;
+
+}
+.left img{
+margin: auto 20px;
+width:30px;
+border-radius: 20px;
+}
+
+.right{
+/* border:2px solid black; */
+display:inline-block;
+right: 20px;
+position:absolute;
+padding: 10px;
+top: 20px;
+}
+.btn{
+    margin:10px;
+    background-color: rgb(243, 224, 224);
+    color:rgb(77, 2, 80);
+    padding: 5px 15px;
+    border:3px solid rgb(65, 70, 38);
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.mid li a:hover{
+    color: brown;
+    /* background-color: rgb(208, 224, 156); */
+    border-radius: 250px;
+}
+
+.mid{
+border:2px solid black;
+width: 42%;
+margin:23px auto ;
+padding: 5px auto;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bold;
+border-radius: 20px;
+background-color: rgb(190, 229, 231);
+
+}
+/* .mid:hover{
+    color: rgb(176, 176, 221); */
+}
+.navbar{
+    /* display: inline-block; */
+}
+.navbar li{
+    display: inline-block;
+
+}
+.navbar li a{
+    color:darkblue;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+
+h1{
+    text-align: center;
+}
+.container{
+    border: 2px solid rgb(60, 60, 221);
+    margin:156px 207px;
+    padding: 35px;
+    width:62%;
+    border-radius:20px;
+}
+
+.forms input{
+    text-align: center;
+    display: block;
+    width:200px;
+    padding: 10px 82px;
+    border:2px solid black;
+    margin:10px auto;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: cursive;
+
+}
+
+.container button{
+display: block;
+/* width:50%; */
+margin: 50px auto ;
+}
+.btn:hover{
+    color: rgb(108, 177, 18);
+}
